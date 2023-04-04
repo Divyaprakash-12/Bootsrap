@@ -9,22 +9,31 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .navbar-header{
+            background-image: url('assets/images/background1.png');
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="navbar-header">
-            <nav class="nav justify-content-end  ">
-                <!-- <a id="img1" class="nav-link " href="#"><img  src="assets\images\logo.png" alt="logo"></a> -->
-                <a class="nav-link " href="#">HOME</a>
-                <a class="nav-link" href="#">PLANS</a>
-                <a class="nav-link" href="#">LEARN MORE</a>
-                <a class="nav-link" href="#">WIDGET</a>
-                <a class="nav-link" href="#">CONTACT US</a>
-                <a class="nav-link" href="#">FRANCAIS</a>
-                <a class="nav-link" href="#">LOG IN</a>
-                <button type="button" class="btn btn-success btn-sm">GET THE DEAL</button>
-            </nav>
+            <nav class="navbar  navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav -justify-content-center">
+                      <a class="nav-link " href="#">Home</a>
+                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link " href="#" >Disabled</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </div>
 
