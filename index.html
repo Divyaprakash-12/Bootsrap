@@ -9,24 +9,18 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .navbar-header{
-            background-image: url('assets/images/background1.png');
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="navbar-header">
+    <div class="container-fluid" id="layer1">
+        <header>
             <nav class="navbar  navbar-expand-lg navbar-light ">
                 <div class="container-fluid" id="frstpage">
-                  <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <button id="tog" class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <!-- <img class="img-fluid" src="assets/images/background1.png" alt=""> -->
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav -justify-content-center" id="nav">
+                    <div class="navbar-nav" id="nav">
                       <a class="nav-link " href="#">HOME</a>
                       <a class="nav-link" href="#">PLANS</a>
                       <a class="nav-link" href="#">LEARN MORE</a>
@@ -34,17 +28,19 @@
                       <a class="nav-link " href="#" >CONTACT US</a>
                       <a class="nav-link " href="#" >FRANCAIS</a>
                       <a class="nav-link " href="#" >LOG IN</a>
-                      <button type="button" class="btn btn-success" id="bt1">GET THE DEAL</button>
+                      <button type="button" class="" id="bt1">GET THE DEAL</button>
                     </div>
                   </div>
-                  <div class="row mt-5 ">
-                    <div class="col -2">The Best</div>
-
-                  </div>
-                  
                 </div>
               </nav>
-        </div>
+          </header>
+          <div class="row" id="content">
+            <div class="col"6></div>
+              <label id="c1">The Best</label>
+              <label id="c2">REAL ESTATE ANALYSIS</label>
+              <label id="c3">SOFTWARE IN NORTH AMERICA</label>    
+              <button type="button" id="bt2">START NOW</button>   
+          </div>
     </div>
 
 </body>
