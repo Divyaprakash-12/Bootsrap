@@ -1,3 +1,11 @@
 .navbar-header{
-    background-image: url('assets/images/background1.png');
+    /* background-image: url('assets/images/background1.png'); */
+   
+    font-size:16px;
+}
+#nav{
+    color:  #ffffff;
+}
+#bt1{
+    background-color: #aab33c;
 }
