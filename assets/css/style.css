@@ -17,6 +17,9 @@
     font-weight: 700;
     font-size: 16px;
     font-family: "Quicksand";
+    width: 150px;
+    height: 40px;
+    text-align: center;
 }
 
 #frstpage {
@@ -32,22 +35,24 @@
     font-weight: 700;
     font-size: 16px;
     font-family: "Quicksand";
-
+}
+#nav{
+    line-height: 50px;
 }
 
-#content1 {
+/* #content1 {
 
     width: 400px;
     margin-left: 250px;
     margin-top: 120px;
 
-}
+} */
 
 #c1 {
     font-size: 60px;
     color: rgb(176, 180, 60);
     font-family: first-font;
-    margin-left: -20px;
+    /* margin-left: -20px; */
 }
 
 #c2 {
@@ -75,8 +80,8 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 16px;
-    width: 165px;
-    height: 40px;
+    /* width: 165px;
+    height: 40px; */
     font-family: "Quicksand";
 }
 
@@ -87,8 +92,8 @@
 
 #content2 {
 
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 28px;
+    line-height: 35px;
     text-transform: uppercase;
     color: #404142;
     font-weight: 700;
@@ -138,5 +143,5 @@
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
-    text-align: center;
+    
 }
