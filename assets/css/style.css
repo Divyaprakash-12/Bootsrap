@@ -27,16 +27,19 @@
     /* background-color: #aab33c; */
     /* float: right; */
 }
-#tog{
+
+#tog {
     background-color: #aab33c;
 }
+
 #nav a {
     color: #ffffff;
     font-weight: 700;
     font-size: 16px;
     font-family: "Quicksand";
 }
-#nav{
+
+#nav {
     line-height: 50px;
 }
 
@@ -62,6 +65,7 @@
     color: #ffffff;
     font-weight: 700;
     font-family: quicksand;
+    margin-top: -25px;
 
 }
 
@@ -80,15 +84,15 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 16px;
-    /* width: 165px;
-    height: 40px; */
+    width: 165px;
+    height: 40px;
     font-family: "Quicksand";
 }
 
-#layer2 {
+/* #layer2 {
     width: 100%;
-    height: 800px;
-}
+    height: 1200px;
+} */
 
 #content2 {
 
@@ -105,7 +109,7 @@
     background-color: #d4da9c;
     /* width: 260px;
     height: 250px; */
-  
+
 }
 
 #card2 {
@@ -119,14 +123,14 @@
     background-color: #d4da9c;
     /* width: 260px;
     height: 250px; */
- 
+
 }
 
 #card4 {
     background-color: #d4da9c;
     /* width: 260px;
     height: 250px; */
-   
+
 }
 
 
@@ -143,5 +147,48 @@
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
+
+}
+
+#layer3{
+    height: 600px;
+}
+
+#c31 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#c32 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
     
+}
+
+#c33{
+    width: 654px;
+height: 238px;
+font-size: 14px;
+line-height: 24px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
+}
+
+#c34{
+    width: 654px;
+height: 238px;
+font-size: 14px;
+line-height: 24px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
 }
