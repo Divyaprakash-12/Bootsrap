@@ -6,7 +6,7 @@
 #layer1 {
     background-image: url('/assets/images/background1.png');
     width: 100%;
-    height: 608px;
+    height: 598px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,6 +20,7 @@
     width: 150px;
     height: 40px;
     text-align: center;
+    border: none;
 }
 
 #frstpage {
@@ -87,6 +88,7 @@
     width: 165px;
     height: 40px;
     font-family: "Quicksand";
+    border: none;
 }
 
 /* #layer2 {
@@ -105,11 +107,14 @@
 
 }
 
-#card1,#card2,#card3,#card4   {
-    background-color:rgba(170, 179, 60, 0.302);
+#card1,
+#card2,
+#card3,
+#card4 {
+    background-color: rgba(170, 179, 60, 0.302);
 }
 
- 
+
 
 /* #img1 {
     width: 97px;
@@ -170,41 +175,177 @@
     font-family: "Quicksand";
 }
 
-#l3img2{
-    background-color:rgba(170, 179, 60, 0.302);
+#l3img2 {
+    background-color: rgba(170, 179, 60, 0.302);
     padding: 13px;
 }
-#l3img3{
-    background-color:rgba(170, 179, 60, 0.302);
+
+#l3img3 {
+    background-color: rgba(170, 179, 60, 0.302);
     padding: 13px;
 }
-#l3c1,#l3c2{
-font-size: 20px;
-line-height: 23px;
-text-transform: uppercase;
-color: #404142;
-font-weight: 700;
-font-family: "Quicksand";
+
+#l3c1,
+#l3c2 {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
 }
 
-#layer4{
-    background-color:rgba(170, 179, 60, 0.102);
-   
+#layer4 {
+    background-color: rgba(170, 179, 60, 0.102);
+
 }
 
-#l4c1{
-font-size: 45px;
-line-height: 46px;
-color: #404142;
-font-weight: 700;
-font-family: "Quicksand";
+#l4c1 {
+    font-size: 45px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
 }
-#l4c2,#l4c3{
+
+#l4c2 {
     width: 646px;
-    height: 202px;
+    height: 135px;
     font-size: 14px;
     line-height: 24px;
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
+}
+
+#l4c3,
+#l4c4 {
+    width: 646px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+
+#l4bt1 {
+    width: 235px;
+    height: 47px;
+    background-color: #aab33c;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    font-size: 18px;
+    border: none;
+}
+
+#l5c1 {
+    font-size: 45px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    vertical-align: middle;
+}
+
+#l5c2 {
+    font-size: 30px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#l5p1,
+#l5p2 {
+    width: 168px;
+    height: 54px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#l5tr1 {
+    background-color: #aab33c;
+
+}
+
+tbody {
+    font-size: 13px;
+    line-height: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+tr:nth-child(even) {
+    background-color: rgba(170, 179, 60, 0.3);
+}
+
+#l5c3 {
+    font-size: 25px;
+    line-height: 14px;
+    color: #aab33b;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#l5p3 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: right;
+}
+
+#l6p1 {
+    font-size: 35px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+#layer6 {
+    background-image: url('/assets/images/layer6img1.png');
+    /* height: 213px; */
+}
+
+#layer8 {
+    background-image: url('/assets/images/layer8img1.png');
+   
+}
+
+#l8p1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#l8p2 {
+
+    font-size: 14px;
+    line-height: 22px;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#l8r1 a{
+
+    font-size: 12px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-decoration: none;
 }
