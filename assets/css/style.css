@@ -9,7 +9,10 @@
     height: 598px;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
+
+
 
 #bt1 {
     background-color: #aab33c;
@@ -40,9 +43,9 @@
     font-family: "Quicksand";
 }
 
-#nav {
+/* #nav {
     line-height: 50px;
-}
+} */
 
 /* #content1 {
 
@@ -89,6 +92,9 @@
     height: 40px;
     font-family: "Quicksand";
     border: none;
+    /* width: 165px;
+height: 47px;
+background-color: #aab33c; */
 }
 
 /* #layer2 {
@@ -311,15 +317,52 @@ tr:nth-child(even) {
     font-family: "Quicksand";
     text-align: center;
 }
-
+#l6a1 {
+    font-size: 38px;
+    line-height: 46px;
+    color: #202021;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    text-decoration: none;
+}
 #layer6 {
     background-image: url('/assets/images/layer6img1.png');
     /* height: 213px; */
 }
 
+.card5 {
+    background-color: #fdffe9;
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#l7p1 {
+    font-size: 35px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+#l7bt1 {
+    font-size: 18px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    width: 235px;
+    height: 47px;
+    background-color: #aab33c;
+}
+
 #layer8 {
     background-image: url('/assets/images/layer8img1.png');
-   
 }
 
 #l8p1 {
@@ -327,25 +370,203 @@ tr:nth-child(even) {
     text-transform: uppercase;
     color: #404142;
     font-weight: 700;
-    font-family: "Open Sans";
+    font-family: "open sans ";
 }
 
 #l8p2 {
 
+    font-size: 12px;
+    line-height: 22px;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+}
+
+#l8a1 a{
+font-size: 12px;
+text-transform: uppercase;
+color: #404142;
+font-weight: 400;
+font-family: "Quicksand";
+text-decoration: none;
+line-height: 33px;
+}
+
+#l8a2 a{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+    text-decoration: none;
+    line-height: 15px;
+    
+    }
+
+#l8bt1 {
+    background-color: #aab33c;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Quicksand";
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+
+#l9p1 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#l9p2 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#addon-wrapping{
+    background-color: #aab33c; 
+}
+
+#l8input1,#l8input2,#l8input3,#l8input4{
+    font-size: 14px;
+color: #636363;
+font-weight: 400;
+font-family: "Quicksand";
+}
+
+#layer9 {
+    background-color: #aab33c;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #computer{
+       height: 180px;
+       width: 180px;
+    }
+}
+
+/* layer6 cards */
+
+.--card:hover{
+    transform: scale(1.1);
+    transition:ease-out ;
+  }
+  #innercard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-left: 50px;
+    margin-top:-40px;
+    position: relative;
+    z-index: 1;
+  }
+  #outercard123{
+    height: 238px;
+  }
+  #innercardtext {
+    flex: 1;
+  }
+  
+  #innerpara {
+    margin-top: auto;
+    font-size: 13px;
+    color: #313132;
+    font-weight: 600;
+    font-family: "Quicksand";
+  }
+  /* cards */
+
+  /* footer */
+  
+.font-2 {
+    width: 260px;
+    height: 130px;
     font-size: 14px;
     line-height: 22px;
     color: #404142;
     font-weight: 400;
-    font-family: "Open Sans";
-}
-
-#l8r1 a{
-
-    font-size: 12px;
-    line-height: 33px;
-    text-transform: uppercase;
+    font-family: "Quicksand";
+  }
+  
+  .font-3 {
+    font-size: 70%;
     color: #404142;
-    font-weight: 400;
-    font-family: "Open Sans";
+    font-family: "Quicksand";
+  }
+  
+  .font-4,
+  .font-5 {
+    font-size: 70%;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+  }
+  
+  .font-bg-4,
+  .font-bg-5 {
+    color: black;
     text-decoration: none;
-}
+  }
+  
+  .font-bg-4:hover,
+  .font-bg-5:hover {
+    color: #848d00;
+  }
+  
+  .but-footer {
+    color: #ffffff;
+    background-color: #acb643;
+    font-size: small;
+    border: none;
+  }
+  
+  .but-footer:hover {
+    background-color: #8b9429;
+  }
+  
+  #fav {
+    color: #a8b336;
+  }
+  
+  #fav-2 {
+    color: white;
+  }
+  
+  .form-control {
+    border: none;
+    outline: 0px;
+  }
+  
+  #addon-wrapping {
+    background-color: #acb643;
+  }
+  
+  #footerid{
+    background-color: #aab33c;
+  }
+  #footertxt{
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  }
+  
+  form .error{
+    color: #4c5504;
+  }
+  

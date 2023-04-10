@@ -10,11 +10,12 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">
   <script src="https://kit.fontawesome.com/c531a805a2.js" crossorigin="anonymous"></script>
+  <script src="assets\js\index.js"></script>
 </head>
-
 <body>
-
+ <!-- layer 1 and navbar -->
   <div class="container-fluid" id="layer1">
     <nav class="navbar  navbar-expand-lg navbar-light">
       <div class="container-fluid" id="frstpage">
@@ -24,45 +25,48 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse ms-auto justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav" id="nav">
-            <a class="nav-link " href="#">HOME</a>
-            <a class="nav-link" href="#">PLANS</a>
-            <a class="nav-link" href="#">LEARN MORE</a>
-            <a class="nav-link " href="#">WIDGET</a>
-            <a class="nav-link " href="#">CONTACT US</a>
-            <a class="nav-link " href="#">FRANCAIS</a>
-            <a class="nav-link " href="#">LOG IN</a>
-            <button type="button" class=" rounded mt-3 justify content-center" id="bt1">GET THE DEAL</button>
+          <div class="navbar-nav " id="nav">
+            <a class="nav-link " href="#layer1">HOME</a>
+            <a class="nav-link" href="#layer5">PLANS</a>
+            <a class="nav-link" href="#layer2">LEARN MORE</a>
+            <a class="nav-link " href="#layer3">WIDGET</a>
+            <a class="nav-link " href="#layer7">CONTACT US</a>
+            <a class="nav-link " href="#layer4">FRANCAIS</a>
+            <a class="nav-link " href="#layer7">LOG IN</a>
+            <a class="nav-link " href="#layer7">
+            <button type="button" class="justify content-center " id="bt1">GET THE DEAL</button></a>
+         
+            
           </div>
         </div>
       </div>
     </nav>
-
+<!-- layer1 content -->
     <div class="row mt-5 pt-5 mb-0 ms-5 ps-5" id="content1">
-      <!-- <div class="col-6 mt-5 mb-3 ms-5 ps-5"></div> -->
-      <div class="col-6 mt-5 mb-0 pt-4 pb-0 ms-5 ps-5 ">
+      <div class="col-6 mt-4 mb-0 pt-4 pb-0 ms-5 ps-5 ">
         <div class="row">
           <span id="c1" class="ms-5 ps-4 mb-0 pb-0">The Best</span>
         </div>
         <div class="row ms-5">
-          <span id="c2" class="ms-2">REAL ESTATE ANALYSIS</span>
+          <span id="c2" class="ms-2" style="white-space: pre-line;">REAL ESTATE ANALYSIS
+            SOFTWARE IN NORTH AMERICA 
+          </span>
         </div>
-        <div class="row ms-5">
-          <span id="c3" class="ms-2">SOFTWARE IN NORTH AMERICA</span>
+        <div class="row ms-5 ps-4 mt-2">
+          <button class="justify content-center" id="bt2" type="button">START NOW</button>
         </div>
-        <div class="row ms-5 ps-5 w-40">
-          <button class="rounded justify content-center" id="bt2" type="button">START NOW</button>
-        </div>
-
       </div>
     </div>
   </div>
+  
+  <!-- layer 2 -->
   <div class="container text-center" id="layer2">
     <div class="row mt-5" id="content2">
       <div class="col-12 ">to make an informed decision when</div>
       <div class="col-12 ">buying or purchasing an income </div>
       <div class="col-12 ">property !</div>
     </div>
+    <!-- cards -->
     <div class="row mt-3">
       <div class="col-sm-3 ">
         <div class=" rounded " id="card1">
@@ -98,16 +102,15 @@
       </div>
     </div>
   </div>
-
+<!-- layer3 -->
   <div class="container mb-5 pb-5" id="layer3">
-    <!-- <img class="img-fluid float-end mt-5 me-5 pe-4"src="assets\images\phone.png" alt="phone image"> -->
     <div class="row float-end ">
       <div class="col-12 ">
-        <img class="img-fluid " src="assets\images\phone.png" alt="phone image">
+        <img class="img-fluid " src="assets\images\phone.png" alt="phone image" >
       </div>
     </div>
     <div class="row mt-5 pt-5">
-      <div class="col-8 mt-5" id="content3">
+      <div class="col-8 mt-5 " id="content3">
         <div class="row">
           <span id="c31" class="">analyze any kind of real </span>
         </div>
@@ -115,10 +118,9 @@
           <span id="c32" class="me-5 pe-5">estate investment</span>
         </div>
       </div>
-
     </div>
     <div class="row mt-3">
-      <div class="col-10">
+      <div class="col-11">
         <span id="c33" class="">iAnalyzeREI can handle all sorts of income-producing Real Estate (Multifamily,
           commercial, plexes, etc.). Moreover, the reports produced by iAnalyzeREI are well-illustrated to accurately
           pinpoint the advantages of living in a plex rather than renting an apartment.
@@ -126,51 +128,46 @@
       </div>
     </div>
     <div class="row mt-3">
-      <div class="col-10">
-        <span id="c34" class=""> Multi-family or commercial properties can also be analyzed, regardless of their
-          size,
-          thanks to special features that adapt to the building's type. For a residential lease, you should enter
-          the
-          number of rooms, the apartment’s surface, the rent, included services, etc. While gathering information to
-          register a commercial lease, you will be able to enter even more specifications according to the rent such
-          as: common space, occupied space, initial rent cost, operating expenses, etc.
+      <div class="col-11">
+        <span id="c34" class="" style="white-space: pre-line;"> Multi-family or commercial properties can also be analyzed, regardless of their size,thanks to
+        special features that adapt to the building's type. For a residential lease, you should enter the
+        number of rooms, the apartment’s surface, the rent, included services, etc. While gathering infor
+        mation to register a commercial lease, you will be able to enter even more specifications accord
+        ing to the rent such as: common space, occupied space, initial rent cost, operating expenses, etc.
         </span>
       </div>
     </div>
-    <!-- <div class="row">
-      <div class="col-4 mt-5 pt-3" >
-        <img src="assets\images\layer3img2.png" alt="image" id="l3img2" class="rounded">
+    <div class="row" id="innerrow">
+      <div class="mt-5 col-5 col-sm-6 col-md-6 pb-5">
+        <a href="" class="text-decoration-none d-lg-block d-none d-sm-block">
+          <img src="assets\images\layer3img2.png" class="img-fluid rounded p-2" id="l3img2">
+            <p class="col-9 pt-2  mt-2" id="l3c1">Unlimited apartment
+              quantities</p>
+        </a>
       </div>
-      <div class="col-4 ms-5 ps-3 mt-5 pt-3">
-        <img src="assets\images\layer3img3.png" alt="image" id="l3img3" class="rounded">
+      <div class="mt-5 col-5 col-sm-6 col-md-6 d-lg-block d-none d-sm-block">
+         <a href="" class="text-decoration-none">
+          <img src="assets\images\layer3img3.png" class="img-fluid rounded p-2" id="l3img3">
+            <p class="figure-caption col-9 mt-2 pt-2" id="l3c2">Commercial leases
+              specially adapted</p>
+        </a>
       </div>
-    </div> -->
-
-    <figure class="figure col-4 pb-5 mt-4 mb-3 ms-3">
-      <img src="assets\images\layer3img2.png" class="figure-img img-fluid rounded" alt="image" id="l3img2">
-      <figcaption class="figure-caption col-9  mt-2" id="l3c1">Unlimited apartment
-        quantities</figcaption>
-    </figure>
-    <!-- <figure class="figure col-4 ms-5 ps-5 mt-0">
-      <img src="assets\images\layer3img3.png" class="figure-img img-fluid rounded ms-5" alt="image" id="l3img3">
-      <figcaption class="figure-caption col-9 mt-2 ms-5" id="l3c2">Commercial leases
-        specially adapted</figcaption>
-    </figure> -->
+    </div>
   </div>
+  <!-- layer4 -->
   <div class="container-fluid py-5" id="layer4">
     <div class="container">
       <div class="row">
-        <div class="col-4">
-          <img src="assets\images\layer4img1.png" alt="">
+        <div class="col-3">
+          <img src="assets\images\layer4img1.png" alt="" id="computer">
         </div>
-        <div class="col-7 ms-5 ps-5">
-          <div class="row ms-5 ps-2">
+        <div class="col-lg-8 col-md-12 ms-5 ps-5">
+          <div class="row ms-lg-5 ps-5 ms-md-0">
             <span id="l4c1">Zoom-imm is an essential
               tool for all Real Estate
               professionals!</span>
           </div>
-
-          <div class="row ms-5 ps-2 mt-3">
+          <div class="row ms-5 ps-5 mt-3">
             <span id="l4c2">
               Not only is iAnalyzeREI professional and dynamic, filled with pertinent information, it also
               produces quality reports. The information displayed makes the report easy to read and understand, even for
@@ -178,44 +175,36 @@
               your needs. You can even tell the software exactly what information to print so that the report has
               everything you want and nothing you don’t.</span>
           </div>
-          <div class="row ms-5 ps-2">
-            <span id="l4c3">
-              If you want to add a personal touch, your picture and your logo can also be inserted in
-              the document.</span>
+          <div class="row ms-5 ps-5 pt-3">
+            <span id="l4c3"  style="white-space: pre-line;">If you want to add a personal touch, your picture and your logo can also be inserted in the document.</span>
           </div>
-          <div class="row ms-5 ps-2 mt-3">
-            <span id="l4c4">
-              Complete report, colorful and legible</span>
-          </div>
-          <div class="row ms-5 ps-2 mt-1">
-            <span id="l4c4"> Available abbreviated version</span>
-          </div>
-          <div class="row ms-5 ps-2 mt-1">
-            <span id="l4c4">Professional aspect</span>
-          </div>
-          <div class="row ms-5 ps-2 mt-1">
-            <span id="l4c4">Personalize document for your client, friend or financial institution</span>
+          <div class="row ms-5 ps-5 mt-3">
+            <span id="l4c4" style="white-space: pre-line;">Complete report, colorful and legible
+              Available abbreviated version
+              Professional aspect
+              Personalize document for your client, friend or financial institution
+            </span>
           </div>
           <div class="row float-end mt-4">
-            <button type="button" id="l4bt1" class=" rounded justify-content-center ">view sample report </button>
+            <button type="button" id="l4bt1" class="justify-content-center ">view sample report </button>
           </div>
         </div>
-
       </div>
     </div>
   </div>
+  <!-- layer5 (table) -->
   <div class="container" id="layer5">
-    <div class="table-responsive mt-5">
+    <div class="table-responsive mt-5 ">
       <table class="table table-striped table-hover table-bordered rounded">
         <table class="table">
           <thead>
             <tr id="l5tr1">
               <th scope="col" id="l5c1">plans</th>
-              <th scope="col" id="l5c2">full
-                <p id="l5p1">Have complete control over all the analysis parameters.</p>
+              <th scope="col" id="l5c2">FULL
+                <p id="l5p1" class="pt-2" style="white-space:pre-line">Have complete control over all the analysis parameters.</p>
               </th>
-              <th scope="col" id="l5c2">light
-                <p id="l5p2">The best way to analyze properties & print pro reports.
+              <th scope="col" id="l5c2">LIGHT
+                <p id="l5p2" class="pt-2"style="white-space:pre-line">The best way to analyze properties & print pro reports.
                 </p>
               </th>
             </tr>
@@ -228,8 +217,8 @@
                 newsletter,e-mails, etc.
                 Click here to view a sample
               </th>
-              <td></td>
-              <td>Otto</td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
 
             </tr>
             <tr>
@@ -238,20 +227,20 @@
                 Flexible mortgage (frequency, amortization, interest rate)
 
               </th>
-              <td></td>
-              <td></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
 
             </tr>
             <tr>
-              <th scope="row" style="white-space:pre-line">Unlimited number of mortgages to finance a property (balance of sale, 2nd mortgage,collateral)
+              <th scope="row" style="white-space:pre-line" class="py-4">Unlimited number of mortgages to finance a property (balance of sale, 2nd mortgage,collateral)
                 all this, under different conditions (interest rate, payment frequency, etc.)
               </th>
-              <td colspan="2"> </td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
               <td></td>
             </tr>
             <tr>
-              <th scope="row" style="white-space:pre-line">Unlimited number of income sources</th>
-              <td></td>
+              <th scope="row" style="white-space:pre-line" class="py-4">Unlimited number of income sources</th>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
               <td></td>
             </tr>
             <tr>
@@ -259,101 +248,237 @@
                 Detailed leases (multifamily and commercial). Unlimited number of leases. (Start date, length, tenants,included services, etc.)
                 Possibility to increase the rent for every lease.
               </th>
-              <td></td>
-              <td></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
             </tr>
             <tr>
               <th scope="row" style="white-space:pre-line">Support and subscription
                 FREE technical support by E-mail and toll-free number.
                 No contract! No activation fees! No penalties! You can stop using iAnalyzeREI whenever you decide!
               </th>
-              <td></td>
-              <td></td>             
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>
+              <td><img src="assets\images\layer5img1.png" alt="" class="mt-2 ms-5 ps-5"></td>           
             </tr>
             <tr>
-              <th scope="row" id="l5c3">plan prices 
+              <th scope="row">
+                <div class="row">
+                  <div class="col-8 pt-4 ps-4" id="l5c3">
+                    plan prices 
+                  </div>
+                  <div class="col-4">
+                    <p style="white-space:pre-line" id="l5p3" class="float-end">monthly
+                      Annual contract</p>
+                  </div>
+                </div>
+              </th>
+              <!-- <th scope="row" id="l5c3" class="ps-3"> plan prices 
                 <p style="white-space:pre-line" id="l5p3" class="float-end">monthly
                    Annual contract</p>
-            </th>
-              <td id="l5p3" class="float-left"  style="white-space:pre-line">$42.80/month                 
+            </th> -->
+              <td id="l5p3" class="text-left"  style="white-space:pre-line">$42.80/month                 
                 $37.32/month</td>
-              <td id="l5p3">$16.05/month</td>
+              <td id="l5p3" class="text-left" >$16.05/month</td>
             </tr>
           </tbody>
         </table>
-
       </table>
     </div>
-
   </div>
+  <!-- layer6 -->
 <div class="container-fluid my-5 " id="layer6">
   <!-- <img src="assets\images\layer6img1.png" alt="image" class="img-fluid"> -->
-  <p id="l6p1" class="mt-5 py-5 center-fixed">Want to learn more about the software ? Click here !</p>
+  <p id="l6p1" class="mt-5 py-5 center-fixed">Want to learn more about the software ? 
+    <a id="l6a1" class="link " href="#layer1" >Click here !</a> </p>
 </div>
+<!-- layer7 -->
 <div class="container my-5" id="layer7">
-  <div class="cards-4 section-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card card-testimonial">
-                        <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                        <div class="table">
-                            <h5 class="card-description">
-                                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                                adipisci velit!"
-                            </h5>
-                        </div>
-                        <div class="ftr">
-                            <h4 class="card-caption">Debbon Amet</h4>
-                            <h6 class="category">@debbonamet</h6>
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="images/avatar1.png"> </a>
-                            </div>
-                        </div>
-                    </div>
+  <div class="row">
+    <!--card1-->
+    <div class="col-md-4">
+      <div class="--card">
+        <div class="--card-body">
+          <img class="img-resposive img-fluid" src="assets\images\layer7img1.png"id="outercard123">
+        </div>
+        <div class="col-md-9">
+          <div class="--card" id="innercard">
+              <img src="assets\images\layer7img4.png">
+              <div class="--card-text ms-1" id="innercardtext">
+                <p  id="innerpara">To make an informed decision when buying or purchasing an income property !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--card2-->
+        <div class="col-md-4">
+          <div class="--card">
+            <div class="--card-body">
+              <img class="img-resposive img-fluid" src="assets\images\layer7img2.png" id="outercard123">
+            </div>
+            <div class="col-md-9">
+              <div class="--card" id="innercard">
+                  <img src="assets\images\layer7img5.png">
+                  <div class="--card-text ms-1 pe-sm-5" id="innercardtext">
+                    <p  id="innerpara">FREE, fast and courteous customer support !</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-testimonial">
-                        <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                        <div class="table">
-                           <img src="assets\images\layer7img1.png" class="img-responsive img-fluid"alt="">
-                        </div>
-                        <div class="ftr">
-                            <h4 class="card-caption">Mary Dunst</h4>
-                            <h6 class="category">@marydunst</h6>
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="assets\images\layer7img5.png"> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-testimonial">
-                        <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                        <div class="table">
-                            <h5 class="card-description">
-                                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                                adipisci velit!"
-                            </h5>
-                        </div>
-                        <div class="ftr">
-                            <h4 class="card-caption">Patrick Wood</h4>
-                            <h6 class="category">@patrickwood</h6>
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="images/avatar3.png"> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!--card3-->
+    <div class="col-md-4">
+      <div class="--card">
+        <div class="--card-body">
+          <img class="img-resposive img-fluid" src="assets\images\layer7img3.png" id="outercard123">
+        </div>
+        <div class="col-md-9">
+          <div class="--card" id="innercard">
+              <img class="img-resposive img-fluid" src="assets\images\layer7img6.png">
+              <div class="--card-text ms-1 pe-sm-5" id="innercardtext">
+                <p  id="innerpara">Zoom-imm is easy to use and produces professional reports</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+<div class="container-sm overflow-hidden mt-4 mb-4">
+  <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-9 col-lg-6 text-center">
+          <h4><b id="row2" class="p-3 border-0">
+                  Get the real deal</b></h4>
+          <button class="border-0 me-lg-2 me-md-2 p-lg-1 ps-lg-5 pe-lg-5" id="button" type="button">START
+              NOW</button>
+
+      </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-4">
+      <div class="card">
+        <img src="assets\images\layer7img1.png" alt="image">
+        <div  class="card-img-overlay icard mt-5 pt-5">
+         <div class="mt-5 pt-5">
+          <div class="card5 d-flex  ">
+            <img class="img-fluid" src="assets\images\layer7img4.png" alt="img">
+            <p class="card-text p-2">
+              To make an informed decision
+              when buying or purchasing an
+              income property !
+          </p>
+          </div>
+        </div> 
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+        <img src="assets\images\layer7img2.png" alt="image">
+        <div  class="card-img-overlay icard mt-5 pt-5">
+         <div class="mt-5 pt-5">
+          <div class="card5 d-flex  ">
+            <img class="img-fluid" src="assets\images\layer7img6.png" alt="img">
+            <p class="card-text ps-2 pt-3" style="white-space: pre-line;">FREE, fast and courteous 
+              customer support !
+              
+          </p>
+          </div>
+        </div> 
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+        <img src="assets\images\layer7img3.png" alt="image">
+        <div  class="card-img-overlay icard mt-5 pt-5">
+         <div class="mt-5 pt-5">
+          <div class="card5 d-flex  ">
+            <img class="img-fluid" src="assets\images\layer7img5.png" alt="img">
+            <p class="card-text pt-3" style="white-space: pre-line;">Zoom-imm is easy to use and pro
+            duces professional reports
+          </p>
+          </div>
+        </div> 
+        </div>
+      </div>
+    </div>
+    <div class="justify-content-center mt-5" id="l7p1">
+      <p> Get the real deal </p>
+      <button type="button" class="  justify content-center " id="bt1">START NOW</button>
+    </div>
+  </div> -->
+</div>
+<!-- layer8 -->
+<div class="container-fluid py-5" id="layer8">
+  <div class="row justify-content-lg-center">
+    <div class="col-6 col-sm-3 col-md-2 mt-4">
+        <h6>ABOUT US</h6>
+        <div class="font-3 mt-3">
+            <p>iAnalyzeREI instantly analyzes commercial and multifamily income properties. This web-based software is an essential tool for every real estate professional.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-6 col-sm-3 col-md-3  mt-4">
+
+        <h6>GET IN TOUCH </h6>
+        <div class="font-4 ">
+            <p> <a href="#" class="font-bg-4"><i class="fa-solid fa-location-dot pe-2" id="fav"></i>85, rue Albert # 202 Sherbrooke
+                Sherbrooke (QC) Canada J1H 1N
+                </a></p>
+            <p>
+                <a href="#" class="font-bg-4"> <i class="fa-solid fa-phone-volume pe-2 " id="fav"></i>+1 222-222-222</a>
+            </p>
+            <p>
+                <a href="#" class="font-bg-4"> <i class="fa-regular fa-envelope pe-2" id="fav"></i>support@magexTechnologies.com</a>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="col-6 col-sm-3 col-md-3   mt-4">
+        <h6>QUICK LINKS </h6>
+        <div class="row">
+            <div class="font-5 col-5">
+                <p><a href="#" class="font-bg-5">HOME</a></p>
+                <p> <a href="#" class="font-bg-5">LEARN MORE</a></p>
+                <p><a href="#" class="font-bg-5">PLANS</a></p>
+                <p><a href="#" class="font-bg-5">CONTACT US</a></p>
+
+            </div>
+            <div class="col-7 font-5">
+                <p> <a href="#" class="font-bg-5">SECURITY AND CONFI
+                  DENTIALITY</a></p>
+                <p> <a href="#" class="font-bg-5">TERMS AND CONDITIONS</a></p>
             </div>
         </div>
     </div>
+    <div class="col-6 col-sm-3 col-md-2  mt-4">
+      <form id="myform">
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-user" id="fav-2"></i></span>
+            <input type="text"  class="form-control" placeholder="Username" name="pass">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text icon" id="addon-wrapping"><i class="fa-regular fa-envelope" id="fav-2" ></i></span>
+            <input type="email" class="form-control" placeholder="Email" name="mail">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text icon" id="addon-wrapping"><i class="fa-sharp fa-solid fa-square-phone" id="fav-2"></i></span>
+            <input type="text" class="form-control" placeholder="Phone" name="mbl">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-comment" id="fav-2"></i></span>
+            <input type="text" class="form-control" placeholder="Comments">
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="rounded-1 but-footer ps-3 pe-3" type="button">SUBMIT</button>
+        </div></form>
+    </div>
 </div>
-<div class="container-fluid py-5" id="layer8">
-<div class="row pt-3 ms-5 ps-5">
-  <div class="col-sm-3">
+<!-- <div class="row pt-3 ms-5 ps-5">
+  <div class="col-sm-4 col-lg-4 col-md-3 col-xs-6">
     <p id="l8p1">about us</p>
     <p style="white-space:pre-line" id="18p2">iAnalyzeREI instantly analyzes commer-
       cial and multifamily income properties.
@@ -361,42 +486,73 @@
       tool for every real estate professional.
       </p>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4 col-lg-4 col-md-3 col-xs-2">
     <p id="l8p1">get in touch</p>
     <p style="white-space:pre-line" id="18p2"><i class="fa-light fa-location-dot fas me-2"  style="color: #aab33c;"></i>85, rue Albert # 202 Sherbrooke
       Sherbrooke (QC) Canada J1H 1N1</p>
     <p style="white-space:pre-line" id="18p2"><i class="fa-light fa-phone-volume fas me-2"  style="color: #aab33c;"></i>+ 1 222-222-222</p>
     <p style="white-space:pre-line" id="18p2"><i class="fa-thin fa-envelope fas me-2" style="color: #aab33c;"></i>support@magexTechnologies.com</p>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-3 col-lg-4 col-md-3 col-xs-2 ">
     <p id="l8p1">quick links</p>
-    <div class="row" id="l8r1">
-    <div class="col-3">
-    <a class="link " href="#" >HOME</a>
-    <a class="link " href="#" >learnmore</a>
-    <a class="link " href="#" >plans</a>
-    <a class="link " href="#" >contactus</a>
+    <div class="row" >
+    <div class="col-5" id="l8a1" style="white-space: pre-line;"><a class="link " href="#layer1" >HOME</a>
+    <a class="link " href="#layer2" >learn more</a>
+    <a class="link " href="#layer5" >plans</a>
+    <a class="link " href="#layer7" >contact us</a>
     </div>
-    <div class="col-5 ">
-      <div class="row">
-      <a class="link" href="#">Security and Confidentiality</a> </div>
-      <div class="row">
-      <a class="link " href="#">TermsandConditions</a> </div>
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-3 ">
-    <form action="" method="get" style="white-space: pre-line;">
-   <i class="fa-solid fa-user " style="color: white; background-color: #aab33c;padding: 8px;"></i><input class="" type="text" name="uname" placeholder="Name" required>
-   <i class="fa-thin fa-envelope fas " style="color: white; background-color: #aab33c;padding: 8px;"></i><input class="mt-2" type="text" name="uname" placeholder="Email" required>
-   <i class="fa-light fa-phone fas " style="color: white; background-color: #aab33c;padding: 8px;"></i><input class="mt-2" type="text" name="uname" placeholder="Phone" required>
-   <i class="fa-light fa-comment fas " style="color: white; background-color: #aab33c;padding: 8px;"></i><input class="mt-2" type="text" name="uname" placeholder="Comments" required>                                         
-  <button type="button" class="me-5  float-end mt-1 rounded  justify content-center" id="bt1">SUBMIT</button>
-  </form>
-  </div>
-  
-</div>
+    <div class="col-7" id="l8a2" style="white-space: pre-line;"> <a class="link" href="#layer6">Security and Confidentiality</a>
 
+      <a class="link" href="#layer1">Terms and Conditions</a> 
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <!-- layer8 (form) -->
+    <!-- <form action="" method="get" id="l8f1" name="form1">
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">
+        <i class="fa-solid fa-user"  style="color: white;"></i>
+      </span>
+        <input id="l8input1 "type="text" class="form-control" name="name" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
+      </div>
+      <div class="input-group flex-nowrap mt-1">
+        <span class="input-group-text" id="addon-wrapping">
+          <i class="fa-thin fa-envelope fas" style="color: white;"></i>
+        </span>
+        <input id="l8input2" type="text" class="form-control" name="email" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+      </div>
+      <div class="input-group flex-nowrap mt-1">
+        <span class="input-group-text" id="addon-wrapping">
+          <i class="fa-light fa-phone fas" style="color: white;"></i>
+        </span>
+        <input  id="l8input3" type="text" class="form-control" name="ph_no" placeholder="Phone" aria-label="Phone" aria-describedby="addon-wrapping">
+      </div>
+      <div class="input-group flex-nowrap mt-1">
+        <span class="input-group-text" id="addon-wrapping">
+          <i class="fa-light fa-comment fas" style="color: white;"></i>
+        </span>
+        <input  id="l8input4" type="text" class="form-control" placeholder="Comments" aria-label="Comments" aria-describedby="addon-wrapping">
+      </div>
+      <div>
+        <button type="submit" onclick="validateform1()" class="mt-1 float-end rounded  justify content-center" id="l8bt1">SUBMIT</button>
+      </div>
+    </form>
+  </div> 
+</div> --> -->
+</div>
+<!-- layer9 -->
+<div class="container-fluid" id="layer9">
+  <div class="container">
+    <div class="row">
+      <div class="col-7 py-3">
+        <span id="l9p1">© Copyright 2021 - MAGEX TECHNOLOGIES INC. All Rights Reserved.</span>
+      </div>
+      <div class="col py-3 text-end">
+        <span id="l9p2" class="">T & CS</span>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 
