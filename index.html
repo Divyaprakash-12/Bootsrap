@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootsrap</title>
+  <title>Zoom-imm</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <script src="assets/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">
   <script src="https://kit.fontawesome.com/c531a805a2.js" crossorigin="anonymous"></script>
-  <script src="assets\js\index.js"></script>
+  <script src="assets\js\validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 </head>
 <body>
  <!-- layer 1 and navbar -->
@@ -342,72 +344,12 @@
       </div>
     </div>
   </div>
-</div>
-   
-<div class="container-sm overflow-hidden mt-4 mb-4">
-  <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-9 col-lg-6 text-center">
-          <h4><b id="row2" class="p-3 border-0">
-                  Get the real deal</b></h4>
-          <button class="border-0 me-lg-2 me-md-2 p-lg-1 ps-lg-5 pe-lg-5" id="button" type="button">START
-              NOW</button>
-
-      </div>
-  </div>
-  <!-- <div class="row">
-    <div class="col-4">
-      <div class="card">
-        <img src="assets\images\layer7img1.png" alt="image">
-        <div  class="card-img-overlay icard mt-5 pt-5">
-         <div class="mt-5 pt-5">
-          <div class="card5 d-flex  ">
-            <img class="img-fluid" src="assets\images\layer7img4.png" alt="img">
-            <p class="card-text p-2">
-              To make an informed decision
-              when buying or purchasing an
-              income property !
-          </p>
-          </div>
-        </div> 
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card">
-        <img src="assets\images\layer7img2.png" alt="image">
-        <div  class="card-img-overlay icard mt-5 pt-5">
-         <div class="mt-5 pt-5">
-          <div class="card5 d-flex  ">
-            <img class="img-fluid" src="assets\images\layer7img6.png" alt="img">
-            <p class="card-text ps-2 pt-3" style="white-space: pre-line;">FREE, fast and courteous 
-              customer support !
-              
-          </p>
-          </div>
-        </div> 
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card">
-        <img src="assets\images\layer7img3.png" alt="image">
-        <div  class="card-img-overlay icard mt-5 pt-5">
-         <div class="mt-5 pt-5">
-          <div class="card5 d-flex  ">
-            <img class="img-fluid" src="assets\images\layer7img5.png" alt="img">
-            <p class="card-text pt-3" style="white-space: pre-line;">Zoom-imm is easy to use and pro
-            duces professional reports
-          </p>
-          </div>
-        </div> 
-        </div>
-      </div>
-    </div>
+  <div class="container-sm overflow-hidden mt-4 mb-4">
     <div class="justify-content-center mt-5" id="l7p1">
       <p> Get the real deal </p>
       <button type="button" class="  justify content-center " id="bt1">START NOW</button>
     </div>
-  </div> -->
+  </div>
 </div>
 <!-- layer8 -->
 <div class="container-fluid py-5" id="layer8">
@@ -455,10 +397,10 @@
         </div>
     </div>
     <div class="col-6 col-sm-3 col-md-2  mt-4">
-      <form id="myform">
+      <form id="myform" name="form1" action="" method="post" class="comments">
         <div class="input-group flex-nowrap mb-2">
             <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-user" id="fav-2"></i></span>
-            <input type="text"  class="form-control" placeholder="Username" name="pass">
+            <input type="text"  class="form-control" placeholder="Name" name="name">
         </div>
         <div class="input-group flex-nowrap mb-2">
             <span class="input-group-text icon" id="addon-wrapping"><i class="fa-regular fa-envelope" id="fav-2" ></i></span>
@@ -466,7 +408,7 @@
         </div>
         <div class="input-group flex-nowrap mb-2">
             <span class="input-group-text icon" id="addon-wrapping"><i class="fa-sharp fa-solid fa-square-phone" id="fav-2"></i></span>
-            <input type="text" class="form-control" placeholder="Phone" name="mbl">
+            <input type="text" class="form-control" placeholder="Phone" name="ph_no">
         </div>
         <div class="input-group flex-nowrap mb-2">
             <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-comment" id="fav-2"></i></span>
@@ -477,69 +419,6 @@
         </div></form>
     </div>
 </div>
-<!-- <div class="row pt-3 ms-5 ps-5">
-  <div class="col-sm-4 col-lg-4 col-md-3 col-xs-6">
-    <p id="l8p1">about us</p>
-    <p style="white-space:pre-line" id="18p2">iAnalyzeREI instantly analyzes commer-
-      cial and multifamily income properties.
-      This web-based software is an essential
-      tool for every real estate professional.
-      </p>
-  </div>
-  <div class="col-sm-4 col-lg-4 col-md-3 col-xs-2">
-    <p id="l8p1">get in touch</p>
-    <p style="white-space:pre-line" id="18p2"><i class="fa-light fa-location-dot fas me-2"  style="color: #aab33c;"></i>85, rue Albert # 202 Sherbrooke
-      Sherbrooke (QC) Canada J1H 1N1</p>
-    <p style="white-space:pre-line" id="18p2"><i class="fa-light fa-phone-volume fas me-2"  style="color: #aab33c;"></i>+ 1 222-222-222</p>
-    <p style="white-space:pre-line" id="18p2"><i class="fa-thin fa-envelope fas me-2" style="color: #aab33c;"></i>support@magexTechnologies.com</p>
-  </div>
-  <div class="col-sm-3 col-lg-4 col-md-3 col-xs-2 ">
-    <p id="l8p1">quick links</p>
-    <div class="row" >
-    <div class="col-5" id="l8a1" style="white-space: pre-line;"><a class="link " href="#layer1" >HOME</a>
-    <a class="link " href="#layer2" >learn more</a>
-    <a class="link " href="#layer5" >plans</a>
-    <a class="link " href="#layer7" >contact us</a>
-    </div>
-    <div class="col-7" id="l8a2" style="white-space: pre-line;"> <a class="link" href="#layer6">Security and Confidentiality</a>
-
-      <a class="link" href="#layer1">Terms and Conditions</a> 
-    </div>
-  </div>
-  </div>
-  <div class="col-sm-3 col-md-2">
-    <!-- layer8 (form) -->
-    <!-- <form action="" method="get" id="l8f1" name="form1">
-      <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">
-        <i class="fa-solid fa-user"  style="color: white;"></i>
-      </span>
-        <input id="l8input1 "type="text" class="form-control" name="name" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
-      </div>
-      <div class="input-group flex-nowrap mt-1">
-        <span class="input-group-text" id="addon-wrapping">
-          <i class="fa-thin fa-envelope fas" style="color: white;"></i>
-        </span>
-        <input id="l8input2" type="text" class="form-control" name="email" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
-      </div>
-      <div class="input-group flex-nowrap mt-1">
-        <span class="input-group-text" id="addon-wrapping">
-          <i class="fa-light fa-phone fas" style="color: white;"></i>
-        </span>
-        <input  id="l8input3" type="text" class="form-control" name="ph_no" placeholder="Phone" aria-label="Phone" aria-describedby="addon-wrapping">
-      </div>
-      <div class="input-group flex-nowrap mt-1">
-        <span class="input-group-text" id="addon-wrapping">
-          <i class="fa-light fa-comment fas" style="color: white;"></i>
-        </span>
-        <input  id="l8input4" type="text" class="form-control" placeholder="Comments" aria-label="Comments" aria-describedby="addon-wrapping">
-      </div>
-      <div>
-        <button type="submit" onclick="validateform1()" class="mt-1 float-end rounded  justify content-center" id="l8bt1">SUBMIT</button>
-      </div>
-    </form>
-  </div> 
-</div> --> -->
 </div>
 <!-- layer9 -->
 <div class="container-fluid" id="layer9">
@@ -554,6 +433,7 @@
     </div>
   </div>
 </div>
+
 </body>
 
 </html>

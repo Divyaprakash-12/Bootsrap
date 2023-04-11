@@ -1,3 +1,4 @@
+/* page1 styling (layer1) */
 @font-face {
     font-family: first-font;
     src: url(/assets/css/00819\ Regular.ttf);
@@ -11,8 +12,6 @@
     background-repeat: no-repeat;
     
 }
-
-
 
 #bt1 {
     background-color: #aab33c;
@@ -42,18 +41,6 @@
     font-size: 16px;
     font-family: "Quicksand";
 }
-
-/* #nav {
-    line-height: 50px;
-} */
-
-/* #content1 {
-
-    width: 400px;
-    margin-left: 250px;
-    margin-top: 120px;
-
-} */
 
 #c1 {
     font-size: 60px;
@@ -97,11 +84,7 @@ height: 47px;
 background-color: #aab33c; */
 }
 
-/* #layer2 {
-    width: 100%;
-    height: 1200px;
-} */
-
+/* page2 styling layer(2)*/
 #content2 {
 
     font-size: 28px;
@@ -121,14 +104,6 @@ background-color: #aab33c; */
 }
 
 
-
-/* #img1 {
-    width: 97px;
-    height: 83px;
-    margin-left: 80px;
-    margin-top: 30px;
-} */
-
 #p1 {
     font-size: 24px;
     line-height: 28px;
@@ -138,10 +113,7 @@ background-color: #aab33c; */
 
 }
 
-/* #layer3 {
-    height: 600px;
-} */
-
+/* page3 styling(layer3) */
 #c31 {
     font-size: 30px;
     line-height: 37px;
@@ -200,7 +172,7 @@ background-color: #aab33c; */
     font-weight: 700;
     font-family: "Quicksand";
 }
-
+/* page4 styling (layer4) */
 #layer4 {
     background-color: rgba(170, 179, 60, 0.102);
 
@@ -246,7 +218,7 @@ background-color: #aab33c; */
     font-size: 18px;
     border: none;
 }
-
+/* page5 styling (layer5) */
 #l5c1 {
     font-size: 45px;
     line-height: 46px;
@@ -309,6 +281,7 @@ tr:nth-child(even) {
     text-align: right;
 }
 
+/* page6 styling (layer6)*/
 #l6p1 {
     font-size: 35px;
     line-height: 46px;
@@ -317,6 +290,7 @@ tr:nth-child(even) {
     font-family: "Quicksand";
     text-align: center;
 }
+
 #l6a1 {
     font-size: 38px;
     line-height: 46px;
@@ -331,13 +305,50 @@ tr:nth-child(even) {
     /* height: 213px; */
 }
 
-.card5 {
+/* page7 styling (layer7) */
+.--card:hover{
+    transform: scale(1.1);
+    transition:ease-out ;
+  }
+  #innercard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-left: 50px;
+    margin-top:-40px;
+    position: relative;
+    z-index: 1;
+  }
+  #outercard123{
+    height: 238px;
+  }
+  #innercardtext {
+    flex: 1;
+  }
+  
+  #innerpara {
+    margin-top: auto;
+    font-size: 13px;
+    color: #313132;
+    font-weight: 600;
+    font-family: "Quicksand";
+  }
+  /* cards */
+
+  /* footer */
+  
+
+
+/* .card5 {
     background-color: #fdffe9;
     font-size: 14px;
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
-}
+} */
 
 #l7p1 {
     font-size: 35px;
@@ -361,6 +372,7 @@ tr:nth-child(even) {
     background-color: #aab33c;
 }
 
+/* page8 styling (layer8) */
 #layer8 {
     background-image: url('/assets/images/layer8img1.png');
 }
@@ -414,85 +426,7 @@ line-height: 33px;
     text-align: center;
     border: none;
 }
-
-#l9p1 {
-    font-size: 13px;
-    letter-spacing: 2px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Quicksand";
-}
-
-#l9p2 {
-    font-size: 13px;
-    letter-spacing: 2px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Quicksand";
-}
-
-#addon-wrapping{
-    background-color: #aab33c; 
-}
-
-#l8input1,#l8input2,#l8input3,#l8input4{
-    font-size: 14px;
-color: #636363;
-font-weight: 400;
-font-family: "Quicksand";
-}
-
-#layer9 {
-    background-color: #aab33c;
-}
-
-@media screen and (min-width:768px) and (max-width:1023px) {
-    #computer{
-       height: 180px;
-       width: 180px;
-    }
-}
-
-/* layer6 cards */
-
-.--card:hover{
-    transform: scale(1.1);
-    transition:ease-out ;
-  }
-  #innercard {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    background-color: #fdffe9;
-    margin-left: 50px;
-    margin-top:-40px;
-    position: relative;
-    z-index: 1;
-  }
-  #outercard123{
-    height: 238px;
-  }
-  #innercardtext {
-    flex: 1;
-  }
-  
-  #innerpara {
-    margin-top: auto;
-    font-size: 13px;
-    color: #313132;
-    font-weight: 600;
-    font-family: "Quicksand";
-  }
-  /* cards */
-
-  /* footer */
-  
+/* footter styling (layer9) */
 .font-2 {
     width: 260px;
     height: 130px;
@@ -538,8 +472,8 @@ font-family: "Quicksand";
   .but-footer:hover {
     background-color: #8b9429;
   }
-  
-  #fav {
+
+#fav {
     color: #a8b336;
   }
   
@@ -569,4 +503,51 @@ font-family: "Quicksand";
   form .error{
     color: #4c5504;
   }
+  
+#l9p1 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#l9p2 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#addon-wrapping{
+    background-color: #aab33c; 
+}
+
+#l8input1,#l8input2,#l8input3,#l8input4{
+    font-size: 14px;
+color: #636363;
+font-weight: 400;
+font-family: "Quicksand";
+}
+
+#layer9 {
+    background-color: #aab33c;
+}
+
+/* @media screen and (min-width:768px) and (max-width:1023px) {
+    #computer{
+       height: 180px;
+       width: 180px;
+    }
+} */
+
+/* layer6 cards */
+
+
+  
   
